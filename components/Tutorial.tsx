@@ -89,7 +89,7 @@ const Tutorial = () => {
 
         {/* 步骤导航 */}
         <div className="mb-12">
-          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+          <div className="flex md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
             {TUTORIAL_STEPS.map((step, index) => (
               <div key={index} className="flex items-center">
                 <button

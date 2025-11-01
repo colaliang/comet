@@ -35,10 +35,10 @@ const Hero = () => {
   }, [])
 
   const features = [
-    'Comet referral program 详细教程',
-    'Perplexity推广收益实战指南',
-    'Comet拉新奖励获取方法',
-    'AI浏览器赚钱完整攻略'
+    '免费Perplexity Pro会员权益',
+    '无限次AI搜索和问答',
+    '高级AI模型访问权限',
+    '智能浏览器完整功能'
   ]
 
   return (
@@ -74,16 +74,16 @@ const Hero = () => {
 
         {/* 主标题 */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-          <span className="block">Comet浏览器推广</span>
-          <span className="text-gradient block">日入200刀</span>
-          <span className="block">佣金计划</span>
+          <span className="block">免费获得</span>
+          <span className="text-gradient block">Pro会员福利</span>
+          <span className="block">价值200美元</span>
         </h1>
 
         {/* 副标题 */}
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-          <span className="font-bold text-primary-600">如何推广Comet赚钱？</span> 详细Perplexity佣金计划教程
+          <span className="font-bold text-primary-600">体验下一代AI浏览器</span> 享受Pro级别功能，完全免费
           <br />
-          <span className="text-lg">Comet拉新教程 + 邀请链接获取 + AI浏览器赚钱攻略</span>
+          <span className="text-lg">Comet浏览器 + Perplexity Pro + 智能搜索 + AI助手</span>
         </p>
 
         {/* 特性列表 */}
@@ -104,7 +104,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white font-semibold text-lg px-12 py-4 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 ease-in-out group w-full sm:w-auto min-w-[280px] flex items-center justify-center"
           >
-            立即学习赚钱教程
+            立即免费获取Pro会员
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
           </a>
           <button
