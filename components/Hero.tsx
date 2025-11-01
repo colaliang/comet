@@ -15,7 +15,7 @@ const Hero = () => {
   useEffect(() => {
     // 设置一个未来的日期作为活动结束时间
     const endDate = new Date()
-    endDate.setDate(endDate.getDate() + 30) // 30天后结束
+    endDate.setDate(endDate.getDate() + 1) // 1天后结束
 
     const timer = setInterval(() => {
       const now = new Date().getTime()
